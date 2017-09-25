@@ -1,0 +1,39 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, Microsoft.AspNetCore.SpaServices
+<html>
+<head>
+    <title>DotNetify-React !</title>
+    <link rel="SHORTCUT ICON" href="~/img/vache.png" />
+    <script type="text/javascript" defer="defer">
+        @Html.Raw(ViewBag.StartupScript)
+    </script>
+</head>
+<body>
+
+@* server prerendering *@
+@*<div id="Content" asp-prerender-module="ServerDist/main-server">
+    loading...
+</div>*@
+    
+    
+@*No server prerendering *@
+<div id="Content">
+    loading...
+</div>
+
+<script src="~/dist/vendor.js" asp-append-version="true"></script>
+<script src="~/dist/main-client.js" asp-append-version="true"></script>
+    <script>
+
+        //console.log("search HelloWorld in window property");
+        //for (var b in window) {
+        //    if (b != "HelloWorld")
+        //        continue;
+
+        //    if (window.hasOwnProperty(b)) console.log(b + ":" + window[b]);
+        //}
+
+
+    </script>
+</body>
+</html>
