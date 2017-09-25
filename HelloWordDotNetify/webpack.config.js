@@ -59,31 +59,5 @@ module.exports = (env) => {
 
         });
 
-    const serverBundleConfig = merge.smart(sharedConfig(),
-        {
-            entry: { "main-server": "./boot-server.tsx" },
-            output: {
-                libraryTarget: "commonjs2",
-                path: path.resolve(__dirname, "_ServerDist/")
-            },
-            resolve: {
-                mainFields: ["main"]
-            },
-            plugins: [
-                new webpack.DllReferencePlugin({
-                    context: __dirname,
-                    manifest: require("./_ServerDist/vendor-manifest.json"),
-                    sourceType: "commonjs2",
-                    name: "./vendor"
-                })
-            ],
-            devtool: "inline-source-map",
-            target: "node"
-        });
-
-    //console.log(clientBundleConfig.plugins);
-    return [clientBundleConfig, serverBundleConfig];
-
-    //return serverBundleConfig;
-    //return clientBundleConfig;
+    return clientBundleConfig;
 };

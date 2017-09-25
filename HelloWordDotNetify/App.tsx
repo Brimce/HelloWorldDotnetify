@@ -57,7 +57,7 @@ export class App extends BaseView<{}, IAppState> {
             <li key={link.Id}><RouteLink vm={this.vm} route={link.Route}>{link.Caption}</RouteLink></li>
         );
         
-
+        
         const MessageContainer = styled.div`
 	        /* all declarations will be prefixed */
 	        padding: 2em 1em;

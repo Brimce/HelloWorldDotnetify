@@ -22,7 +22,6 @@ Object.assign(window, {
 }
 );
 
-
 function renderApp() {
     ReactDom.render(
         <AppContainer>

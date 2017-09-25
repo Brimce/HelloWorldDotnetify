@@ -14,6 +14,8 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.6.1" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="DotNetify.Core" Version="2.2.1-pre" />
+    <PackageReference Include="DotNetify.SignalR" Version="2.2.1-pre" />
     <PackageReference Include="Easy.MessageHub" Version="3.2.0" />
     <PackageReference Include="MediatR" Version="3.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="3.0.0" />
@@ -31,8 +33,6 @@
   
   <ItemGroup>
     <ProjectReference Include="..\Dotnetifiy.Messaging\Dotnetifiy.Messaging.csproj" />
-    <ProjectReference Include="..\DotNetifyLib.Core\DotNetifyLib.Core.csproj" />
-    <ProjectReference Include="..\DotNetifyLib.SignalR\DotNetifyLib.SignalR.csproj" />
   </ItemGroup>
   
   <ItemGroup>

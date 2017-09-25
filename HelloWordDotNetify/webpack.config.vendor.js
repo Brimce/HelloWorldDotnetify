@@ -87,7 +87,7 @@ module.exports = (env) => {
         ]
     });
 
-    return [clientBundleConfig, serverBundleConfig];
+    //return [clientBundleConfig, serverBundleConfig];
     //return serverBundleConfig;
-    //return clientBundleConfig;
+    return clientBundleConfig;
 };

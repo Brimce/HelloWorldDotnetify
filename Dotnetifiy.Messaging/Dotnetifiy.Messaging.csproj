@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotNetifyLib.Core\DotNetifyLib.Core.csproj" />
-    <ProjectReference Include="..\DotNetifyLib.SignalR\DotNetifyLib.SignalR.csproj" />
+    <PackageReference Include="DotNetify.Core" Version="2.2.1-pre" />
+    <PackageReference Include="DotNetify.SignalR" Version="2.2.1-pre" />
   </ItemGroup>
 
 </Project>
