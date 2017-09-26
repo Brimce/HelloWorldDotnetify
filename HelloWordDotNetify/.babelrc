@@ -1,0 +1,15 @@
+//antd
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ] // `style: true` for less
+  ]
+}

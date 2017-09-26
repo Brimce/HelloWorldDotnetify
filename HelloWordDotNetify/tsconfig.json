@@ -3,14 +3,20 @@
     "module": "es2015",
     "baseUrl": ".",
     "moduleResolution": "node",
-    "target": "es5",
-    "jsx": "react",
+    "target": "es6",//es5
+    "jsx": "react", //for ant.design
     "experimentalDecorators": true, //es7 decorator
     "sourceMap": true,
     "skipDefaultLibCheck": true,
     "strict": true,
     "lib": [ "es6", "dom" ],
-    "types": [ "webpack-env" ]
+    "types": [ "webpack-env" ],
+    "allowSyntheticDefaultImports": true //for ant.design
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "useCache": true,
+    "silent": true 
   },
   "exclude": [
     "bin",

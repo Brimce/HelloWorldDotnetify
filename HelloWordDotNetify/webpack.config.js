@@ -7,6 +7,7 @@ const merge = require("webpack-merge");
 
 module.exports = (env) => {
     const isDevBuild = !(env && env.prod);
+    const extractCSS = new ExtractTextPlugin("app.css");
 
     // Configuration in common to both client-side and server-side bundles
     const sharedConfig = () => ({
@@ -24,7 +25,8 @@ module.exports = (env) => {
         },
         module: {
             rules: [
-                 { test: /\.tsx?$/, include: __dirname, use: "awesome-typescript-loader?silent=true" }
+                 // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader' awesome-typescript-loader?silent=true.
+                { test: /\.tsx?$/, include: __dirname, use: "awesome-typescript-loader" },               
             ]
         },
         plugins: [
@@ -37,11 +39,17 @@ module.exports = (env) => {
     const clientBundleConfig = merge.smart(sharedConfig(),
         {
             entry: { "main-client": "./boot-client.tsx" },
+            module: {
+                rules: [
+                    { test: /\.css$/, use: isDevBuild ? 'css-loader' : extractCSS.extract({ use: 'css-loader?minimize' }) }
+                ]
+            },
             output: {
                 path: path.resolve(__dirname, clientBundleOutputDir)
             },
             plugins: [
-                new ExtractTextPlugin("site.css"),
+                extractCSS,
+                //new ExtractTextPlugin("site.css"),
                 new webpack.DllReferencePlugin({
                     context: __dirname,
                     manifest: require("./wwwroot/dist/vendor-manifest.json")

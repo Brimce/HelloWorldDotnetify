@@ -1,5 +1,4 @@
 ﻿import * as React from "react";
-import * as injectTapEventPlugin from "react-tap-event-plugin";
 import { AppContainer } from "react-hot-loader";
 import * as ReactDom from "react-dom";
 import {App} from "./App";
@@ -8,8 +7,13 @@ import { SimpleTs } from "./Modules/SimpleTs/SimpleTs";
 import { Home } from "Pages/Home/Home";
 import { Test } from "Pages/Test/Test";
 import {About} from "Pages/About/About"
-injectTapEventPlugin();
+import moment from 'moment';
+import { LocaleProvider } from 'antd';
+import frFR from 'antd/lib/locale-provider/fr_FR';
 
+// It's recommended to set locale in entry file globaly.
+import 'moment/locale/fr';
+moment.locale('fr');
 
 // Export the library modules into global scope for the components that will be loaded on-demand by the router.
 Object.assign(window, {
@@ -25,7 +29,9 @@ Object.assign(window, {
 function renderApp() {
     ReactDom.render(
         <AppContainer>
-            <App />
+            <LocaleProvider locale={frFR}>
+                <App />
+            </LocaleProvider>
         </AppContainer>
         , document.getElementById("Content")
     );

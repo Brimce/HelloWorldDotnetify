@@ -19,12 +19,12 @@ module.exports = (env) => {
             vendor: [
                 "react",
                 "react-dom",
-                "react-tap-event-plugin",
                 "jquery",
                 "dotnetify",
                 "rxjs",
-                "material-ui",
-                "styled-components"
+                //"antd",
+                "styled-components",
+                "moment"
             ]
         },
         output: {

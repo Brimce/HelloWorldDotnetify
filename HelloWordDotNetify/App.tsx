@@ -9,6 +9,11 @@ import Title from "Components/Title";
 
 import * as Dotnetify from "dotnetify";
 import { RouteLink } from "dotnetify/dist/dotnetify-react.router";
+import { DatePicker, message } from 'antd';
+import moment from "moment";
+
+import { LocaleProvider } from 'antd';
+import frFR from 'antd/lib/locale-provider/fr_FR';
 
 
 export interface ILink{
@@ -31,12 +36,20 @@ export class App extends BaseView<{}, IAppState> {
         console.log(`window.vmStates : ${window.vmStates}`);
         console.log(`server hydratation app link : '${window.vmStates.AppVM.Links[0].Caption}'`);
         console.log(`server hydratation app message : '${window.vmStates.AppVM.Message}'`);
+        //console.log(moment().local());
 
+        //moment.locale("fr");
+        message.info(`moment : ${moment().locale()}`);
         this.vm.onRouteEnter =
             (path: string, template: Dotnetify.ITemplate) => template.Target = "CurrentPageDiv";
 
         this.state = window.vmStates.AppVM;
         console.log(`App message : ${this.state.Message}`);
+    }
+
+    componentDidUpdate() {
+        if (this.state.Message)
+            message.info(`${this.state.Message}`);
     }
 
     handleClick = (e: React.FormEvent<HTMLButtonElement>) : void => {
@@ -48,7 +61,7 @@ export class App extends BaseView<{}, IAppState> {
 
     render() {
         console.log(`App message : ${this.state.Message}`);
-
+        
         const Menu = styled.ul`
         color: green;
         `;
@@ -105,8 +118,10 @@ export class App extends BaseView<{}, IAppState> {
                     <Menu>
                         {links}
                     </Menu>
-                   
-                    <div id="CurrentPageDiv" />
+                   <DatePicker/>
+                   <LocaleProvider locale={frFR}>
+                        <div id="CurrentPageDiv" />
+                   </LocaleProvider>
                 </div>
             </ThemeProvider>
         );
