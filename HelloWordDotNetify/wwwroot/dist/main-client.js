@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "7326fc7eed48971629c1"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8f938b2c83a67900439a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -704,20 +704,20 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(492)(__webpack_require__.s = 492);
+/******/ 	return hotCreateRequire(493)(__webpack_require__.s = 493);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(64);
+module.exports = (__webpack_require__(13))(64);
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(294);
+module.exports = (__webpack_require__(13))(294);
 
 /***/ }),
 /* 2 */
@@ -961,7 +961,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 var React = __webpack_require__(0);
-var factory = __webpack_require__(490);
+var factory = __webpack_require__(491);
 
 if (typeof React === 'undefined') {
   throw Error(
@@ -984,25 +984,25 @@ module.exports = factory(
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(1);
+module.exports = (__webpack_require__(13))(1);
 
 /***/ }),
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(90);
+module.exports = (__webpack_require__(13))(90);
 
 /***/ }),
 /* 12 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = vendor_ea7591919ad141ee5d43;
+module.exports = (__webpack_require__(13))(31);
 
 /***/ }),
 /* 13 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = (__webpack_require__(12))(31);
+module.exports = vendor_ea7591919ad141ee5d43;
 
 /***/ }),
 /* 14 */
@@ -2967,8 +2967,8 @@ var BaseView = exports.BaseView = function (_React$Component) {
     return BaseView;
 }(React.Component);
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\_Typescript\\index.ts"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\_Typescript\\index.ts"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\_Typescript\\index.ts"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\_Typescript\\index.ts"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 44 */
@@ -5289,13 +5289,13 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(661);
+module.exports = (__webpack_require__(13))(661);
 
 /***/ }),
 /* 93 */
@@ -5391,7 +5391,7 @@ var _moment = __webpack_require__(10);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-__webpack_require__(488);
+__webpack_require__(489);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -10236,7 +10236,7 @@ if (!module.hot || process.env.NODE_ENV === 'production') {
 } else {
   module.exports = __webpack_require__(461);
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 170 */
@@ -10250,19 +10250,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.App = undefined;
 
-var _css = __webpack_require__(99);
-
-var _localeProvider = __webpack_require__(98);
-
-var _localeProvider2 = _interopRequireDefault(_localeProvider);
-
-var _css2 = __webpack_require__(195);
+var _css = __webpack_require__(195);
 
 var _datePicker = __webpack_require__(194);
 
 var _datePicker2 = _interopRequireDefault(_datePicker);
 
-var _css3 = __webpack_require__(101);
+var _css2 = __webpack_require__(101);
 
 var _message = __webpack_require__(100);
 
@@ -10283,7 +10277,7 @@ var _styledComponents = __webpack_require__(176);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _Colors = __webpack_require__(469);
+var _Colors = __webpack_require__(470);
 
 var _Colors2 = _interopRequireDefault(_Colors);
 
@@ -10297,9 +10291,15 @@ var _moment = __webpack_require__(10);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _fr_FR = __webpack_require__(97);
+var _HelloWorld = __webpack_require__(172);
 
-var _fr_FR2 = _interopRequireDefault(_fr_FR);
+var _SimpleTs = __webpack_require__(471);
+
+var _Home = __webpack_require__(473);
+
+var _Test = __webpack_require__(474);
+
+var _About = __webpack_require__(472);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -10325,12 +10325,18 @@ var App = exports.App = function (_BaseView) {
             e.preventDefault();
             _this.$dispatch({ Submit: "nouveau message" });
         };
+        // Export the library modules into global scope for the components that will be loaded on-demand by the router.
+        Object.assign(window, {
+            //App: App,
+            HelloWorld: _HelloWorld.HelloWorld,
+            SimpleTs: _SimpleTs.SimpleTs,
+            Home: _Home.Home,
+            Test: _Test.Test,
+            About: _About.About
+        });
         console.log("window.vmStates : " + window.vmStates);
         console.log("server hydratation app link : '" + window.vmStates.AppVM.Links[0].Caption + "'");
         console.log("server hydratation app message : '" + window.vmStates.AppVM.Message + "'");
-        //console.log(moment().local());
-        //moment.locale("fr");
-        _message2.default.info("moment : " + (0, _moment2.default)().locale());
         _this.vm.onRouteEnter = function (path, template) {
             return template.Target = "CurrentPageDiv";
         };
@@ -10342,6 +10348,7 @@ var App = exports.App = function (_BaseView) {
     _createClass(App, [{
         key: "componentDidUpdate",
         value: function componentDidUpdate() {
+            _message2.default.warn("moment : " + (0, _moment2.default)().locale());
             if (this.state.Message) _message2.default.info("" + this.state.Message);
         }
         //<RouteLink route="route"></RouteLink>
@@ -10359,15 +10366,16 @@ var App = exports.App = function (_BaseView) {
             });
             var MessageContainer = _styledComponents2.default.div(_templateObject2);
             //{ this.state.Message && <MessageContainer><p>this.state.Message</p></MessageContainer> }
-            return React.createElement(_styledComponents.ThemeProvider, { theme: _Colors2.default }, React.createElement("div", null, React.createElement(_Title2.default, null, "La couleur du titre c'est important ", _Colors2.default.main, "...!"), this.state.Message && React.createElement(MessageContainer, null, React.createElement("p", null, this.state.Message)), React.createElement("button", { onClick: this.handleClick }, "Change message"), React.createElement("br", null), React.createElement(Menu, null, links), React.createElement(_datePicker2.default, null), React.createElement(_localeProvider2.default, { locale: _fr_FR2.default }, React.createElement("div", { id: "CurrentPageDiv" }))));
+            //<About />
+            return React.createElement(_styledComponents.ThemeProvider, { theme: _Colors2.default }, React.createElement("div", null, React.createElement(_Title2.default, null, "La couleur du titre c'est important ", _Colors2.default.main, "...!"), React.createElement("button", { onClick: this.handleClick }, "Change message"), React.createElement("br", null), React.createElement(Menu, null, links), React.createElement(_datePicker2.default, null), React.createElement("div", { id: "CurrentPageDiv" })));
         }
     }]);
 
     return App;
 }(_index.BaseView);
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\App.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\App.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\App.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\App.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 171 */
@@ -10399,8 +10407,8 @@ var Title = _styledComponents2.default.h1(_templateObject, function (props) {
 });
 exports.default = Title;
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Title.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Title.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Title.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Title.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 172 */
@@ -10422,7 +10430,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _Rx = __webpack_require__(489);
+var _Rx = __webpack_require__(490);
 
 var Rx = _interopRequireWildcard(_Rx);
 
@@ -10490,8 +10498,8 @@ var HelloWorld = exports.HelloWorld = function (_BaseView) {
     return HelloWorld;
 }(_index.BaseView);
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Modules\\HelloWorld\\HelloWorld.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Modules\\HelloWorld\\HelloWorld.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Modules\\HelloWorld\\HelloWorld.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Modules\\HelloWorld\\HelloWorld.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 173 */
@@ -10574,25 +10582,25 @@ module.exports = function shallowEqual(objA, objB, compare, compareContext) {
 /* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(270);
+module.exports = (__webpack_require__(13))(270);
 
 /***/ }),
 /* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(272);
+module.exports = (__webpack_require__(13))(272);
 
 /***/ }),
 /* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(8);
+module.exports = (__webpack_require__(13))(8);
 
 /***/ }),
 /* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(89);
+module.exports = (__webpack_require__(13))(89);
 
 /***/ }),
 /* 179 */
@@ -10626,16 +10634,6 @@ var ReactDom = _interopRequireWildcard(_reactDom);
 
 var _App = __webpack_require__(170);
 
-var _HelloWorld = __webpack_require__(172);
-
-var _SimpleTs = __webpack_require__(470);
-
-var _Home = __webpack_require__(472);
-
-var _Test = __webpack_require__(473);
-
-var _About = __webpack_require__(471);
-
 var _moment = __webpack_require__(10);
 
 var _moment2 = _interopRequireDefault(_moment);
@@ -10644,24 +10642,15 @@ var _fr_FR = __webpack_require__(97);
 
 var _fr_FR2 = _interopRequireDefault(_fr_FR);
 
-__webpack_require__(487);
+__webpack_require__(488);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _moment2.default.locale('fr');
-// Export the library modules into global scope for the components that will be loaded on-demand by the router.
-
 // It's recommended to set locale in entry file globaly.
-Object.assign(window, {
-    App: _App.App,
-    HelloWorld: _HelloWorld.HelloWorld,
-    SimpleTs: _SimpleTs.SimpleTs,
-    Home: _Home.Home,
-    Test: _Test.Test,
-    About: _About.About
-});
+
 function renderApp() {
     ReactDom.render(React.createElement(_reactHotLoader.AppContainer, null, React.createElement(_localeProvider2.default, { locale: _fr_FR2.default }, React.createElement(_App.App, null))), document.getElementById("Content"));
 }
@@ -10674,8 +10663,8 @@ if (true) {
     });
 }
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\boot-client.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\boot-client.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\boot-client.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\boot-client.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 181 */
@@ -10814,11 +10803,11 @@ if (typeof window !== 'undefined') {
 }
 
 function createReporter() {
-  var strip = __webpack_require__(484);
+  var strip = __webpack_require__(485);
 
   var overlay;
   if (typeof document !== 'undefined' && options.overlay) {
-    overlay = __webpack_require__(485);
+    overlay = __webpack_require__(486);
   }
 
   var styles = {
@@ -10871,7 +10860,7 @@ function createReporter() {
   };
 }
 
-var processUpdate = __webpack_require__(486);
+var processUpdate = __webpack_require__(487);
 
 var customHandler;
 var subscribeAllHandler;
@@ -16158,7 +16147,7 @@ limitations under the License.
 // Support using AMD or CommonJS that loads our app.js, or being placed in <script> tag.
 (function (factory) {
    if (true) {
-      !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0), __webpack_require__(491), __webpack_require__(175)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+      !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0), __webpack_require__(492), __webpack_require__(175)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -16937,7 +16926,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
     /* istanbul ignore next */
     if (true) {
-        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(483)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(484)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -32598,7 +32587,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var React = __webpack_require__(0);
 var deepForceUpdate = __webpack_require__(459);
-var Redbox = __webpack_require__(479).default;
+var Redbox = __webpack_require__(480).default;
 var Component = React.Component;
 
 var AppContainer = function (_Component) {
@@ -32758,7 +32747,7 @@ if (!module.hot || process.env.NODE_ENV === 'production') {
 } else {
   module.exports = __webpack_require__(463);
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 465 */
@@ -32781,7 +32770,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var React = __webpack_require__(0);
-var createProxy = __webpack_require__(478).default;
+var createProxy = __webpack_require__(479).default;
 var global = __webpack_require__(279);
 
 var ComponentMap = function () {
@@ -32971,7 +32960,7 @@ if (!module.hot || process.env.NODE_ENV === 'production') {
 } else {
   module.exports = __webpack_require__(466);
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 468 */
@@ -32991,6 +32980,49 @@ if (!module.hot || process.env.NODE_ENV === 'production') {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+
+var _css = __webpack_require__(190);
+
+var _calendar = __webpack_require__(188);
+
+var _calendar2 = _interopRequireDefault(_calendar);
+
+var _css2 = __webpack_require__(99);
+
+var _localeProvider = __webpack_require__(98);
+
+var _localeProvider2 = _interopRequireDefault(_localeProvider);
+
+var _fr_FR = __webpack_require__(97);
+
+var _fr_FR2 = _interopRequireDefault(_fr_FR);
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var myCalendar = function myCalendar() {
+    return React.createElement(_localeProvider2.default, { locale: _fr_FR2.default }, React.createElement(_calendar2.default, null));
+};
+exports.default = myCalendar;
+
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Calendar.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Calendar.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
+
+/***/ }),
+/* 470 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 var colors = {
     main: "#393276",
     dark: "#0D083B",
@@ -32998,11 +33030,11 @@ var colors = {
 };
 exports.default = colors;
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Colors.ts"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Colors.ts"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Colors.ts"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Components\\Colors.ts"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 470 */
+/* 471 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33046,11 +33078,11 @@ var SimpleTs = exports.SimpleTs = function (_React$Component) {
     return SimpleTs;
 }(React.Component);
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Modules\\SimpleTs\\SimpleTs.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Modules\\SimpleTs\\SimpleTs.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Modules\\SimpleTs\\SimpleTs.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Modules\\SimpleTs\\SimpleTs.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 471 */
+/* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33061,13 +33093,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.About = undefined;
 
-var _css = __webpack_require__(190);
-
-var _calendar = __webpack_require__(188);
-
-var _calendar2 = _interopRequireDefault(_calendar);
-
-var _css2 = __webpack_require__(101);
+var _css = __webpack_require__(101);
 
 var _message = __webpack_require__(100);
 
@@ -33080,6 +33106,10 @@ var _react = __webpack_require__(0);
 var React = _interopRequireWildcard(_react);
 
 var _index = __webpack_require__(43);
+
+var _Calendar = __webpack_require__(469);
+
+var _Calendar2 = _interopRequireDefault(_Calendar);
 
 var _moment = __webpack_require__(10);
 
@@ -33106,27 +33136,30 @@ var About = exports.About = function (_BaseView) {
         _this.onPanelChange = function (value, mode) {
             console.log(value, mode);
         };
-        //moment.locale('fr');
-        _message2.default.info("moment : " + (0, _moment2.default)().locale());
         return _this;
     }
 
     _createClass(About, [{
+        key: "componentDidUpdate",
+        value: function componentDidUpdate() {
+            _message2.default.success("moment : " + (0, _moment2.default)().locale());
+            //message.success(`Calendar local : ${this.calendar.props.locale}`);
+        }
+    }, {
         key: "render",
         value: function render() {
-            _moment2.default.locale('fr');
-            return React.createElement("div", null, "Auteur:", React.createElement("b", null, this.state.Auteur), React.createElement(_calendar2.default, { onPanelChange: this.onPanelChange }));
+            return React.createElement("div", null, "Auteur:", React.createElement("b", null, this.state.Auteur), React.createElement(_Calendar2.default, null));
         }
     }]);
 
     return About;
 }(_index.BaseView);
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\About\\About.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\About\\About.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\About\\About.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\About\\About.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 472 */
+/* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33181,11 +33214,11 @@ var Home = exports.Home = function (_BaseView) {
     return Home;
 }(_index.BaseView);
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\Home\\Home.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\Home\\Home.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\Home\\Home.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\Home\\Home.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 473 */
+/* 474 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33233,11 +33266,11 @@ var Test = exports.Test = function (_BaseView) {
     return Test;
 }(_index.BaseView);
 
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\Test\\Test.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\Documents\\Visual Studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\Test\\Test.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\Test\\Test.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\codev\\documents\\visual studio 2017\\Projects\\HelloWordDotNetify\\HelloWordDotNetify\\Pages\\Test\\Test.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 474 */
+/* 475 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33336,7 +33369,7 @@ function bindAutoBindMethodsFromArray(component) {
 }
 
 /***/ }),
-/* 475 */
+/* 476 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33356,15 +33389,15 @@ var _find = __webpack_require__(372);
 
 var _find2 = _interopRequireDefault(_find);
 
-var _createPrototypeProxy = __webpack_require__(476);
+var _createPrototypeProxy = __webpack_require__(477);
 
 var _createPrototypeProxy2 = _interopRequireDefault(_createPrototypeProxy);
 
-var _bindAutoBindMethods = __webpack_require__(474);
+var _bindAutoBindMethods = __webpack_require__(475);
 
 var _bindAutoBindMethods2 = _interopRequireDefault(_bindAutoBindMethods);
 
-var _deleteUnknownAutoBindMethods = __webpack_require__(477);
+var _deleteUnknownAutoBindMethods = __webpack_require__(478);
 
 var _deleteUnknownAutoBindMethods2 = _interopRequireDefault(_deleteUnknownAutoBindMethods);
 
@@ -33632,7 +33665,7 @@ function createClassProxy(Component) {
 }
 
 /***/ }),
-/* 476 */
+/* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33845,7 +33878,7 @@ function createPrototypeProxy() {
 };
 
 /***/ }),
-/* 477 */
+/* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33934,7 +33967,7 @@ function deleteUnknownAutoBindMethods(component) {
 }
 
 /***/ }),
-/* 478 */
+/* 479 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33948,7 +33981,7 @@ var _supportsProtoAssignment = __webpack_require__(173);
 
 var _supportsProtoAssignment2 = _interopRequireDefault(_supportsProtoAssignment);
 
-var _createClassProxy = __webpack_require__(475);
+var _createClassProxy = __webpack_require__(476);
 
 var _createClassProxy2 = _interopRequireDefault(_createClassProxy);
 
@@ -33961,7 +33994,7 @@ if (!(0, _supportsProtoAssignment2.default)()) {
 exports.default = _createClassProxy2.default;
 
 /***/ }),
-/* 479 */
+/* 480 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33990,7 +34023,7 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _style = __webpack_require__(481);
+var _style = __webpack_require__(482);
 
 var _style2 = _interopRequireDefault(_style);
 
@@ -34002,9 +34035,9 @@ var _objectAssign = __webpack_require__(177);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
-var _lib = __webpack_require__(480);
+var _lib = __webpack_require__(481);
 
-var _sourcemappedStacktrace = __webpack_require__(482);
+var _sourcemappedStacktrace = __webpack_require__(483);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34476,7 +34509,7 @@ exports.__ResetDependency__ = _reset__;
 exports.__RewireAPI__ = _RewireAPI__;
 
 /***/ }),
-/* 480 */
+/* 481 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34686,7 +34719,7 @@ exports.__RewireAPI__ = _RewireAPI__;
 exports.default = _RewireAPI__;
 
 /***/ }),
-/* 481 */
+/* 482 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34736,7 +34769,7 @@ var _DefaultExportValue = {
 exports.default = _DefaultExportValue;
 
 /***/ }),
-/* 482 */
+/* 483 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -37143,7 +37176,7 @@ return /******/ (function(modules) { // webpackBootstrap
 ;
 
 /***/ }),
-/* 483 */
+/* 484 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (root, factory) {
@@ -37259,7 +37292,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
-/* 484 */
+/* 485 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37272,7 +37305,7 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 485 */
+/* 486 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*eslint-env browser*/
@@ -37357,7 +37390,7 @@ function problemType (type) {
 
 
 /***/ }),
-/* 486 */
+/* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -37495,37 +37528,37 @@ module.exports = function(hash, moduleMap, options) {
 
 
 /***/ }),
-/* 487 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(12))(134);
-
-/***/ }),
 /* 488 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(206);
+module.exports = (__webpack_require__(13))(134);
 
 /***/ }),
 /* 489 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(271);
+module.exports = (__webpack_require__(13))(206);
 
 /***/ }),
 /* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(273);
+module.exports = (__webpack_require__(13))(271);
 
 /***/ }),
 /* 491 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(12))(63);
+module.exports = (__webpack_require__(13))(273);
 
 /***/ }),
 /* 492 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(13))(63);
+
+/***/ }),
+/* 493 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(179);

@@ -9,8 +9,14 @@ import Title from "Components/Title";
 
 import * as Dotnetify from "dotnetify";
 import { RouteLink } from "dotnetify/dist/dotnetify-react.router";
-import { DatePicker, message } from 'antd';
+import { DatePicker, message, Calendar } from 'antd';
 import moment from "moment";
+
+import { HelloWorld } from "./Modules/HelloWorld/HelloWorld";
+import { SimpleTs } from "./Modules/SimpleTs/SimpleTs";
+import { Home } from "Pages/Home/Home";
+import { Test } from "Pages/Test/Test";
+import { About } from "Pages/About/About"
 
 import { LocaleProvider } from 'antd';
 import frFR from 'antd/lib/locale-provider/fr_FR';
@@ -32,14 +38,22 @@ export class App extends BaseView<{}, IAppState> {
 
     constructor(props: any) {
         super(`${App.name}VM`, props);
-        
+
+        // Export the library modules into global scope for the components that will be loaded on-demand by the router.
+        Object.assign(window, {
+                //App: App,
+                HelloWorld: HelloWorld,
+                SimpleTs: SimpleTs,
+                Home: Home,
+                Test: Test,
+                About: About
+            }
+        );
+
         console.log(`window.vmStates : ${window.vmStates}`);
         console.log(`server hydratation app link : '${window.vmStates.AppVM.Links[0].Caption}'`);
-        console.log(`server hydratation app message : '${window.vmStates.AppVM.Message}'`);
-        //console.log(moment().local());
+        console.log(`server hydratation app message : '${window.vmStates.AppVM.Message}'`);   
 
-        //moment.locale("fr");
-        message.info(`moment : ${moment().locale()}`);
         this.vm.onRouteEnter =
             (path: string, template: Dotnetify.ITemplate) => template.Target = "CurrentPageDiv";
 
@@ -48,6 +62,7 @@ export class App extends BaseView<{}, IAppState> {
     }
 
     componentDidUpdate() {
+        message.warn(`moment : ${moment().locale()}`);
         if (this.state.Message)
             message.info(`${this.state.Message}`);
     }
@@ -103,27 +118,25 @@ export class App extends BaseView<{}, IAppState> {
         `;
 
         //{ this.state.Message && <MessageContainer><p>this.state.Message</p></MessageContainer> }
+        //<About />
 
         return (
             <ThemeProvider theme={Colors}>
                 <div>
                     <Title>La couleur du titre c'est important {Colors.main}...!</Title>
 
-                    {this.state.Message && <MessageContainer><p>{this.state.Message}</p></MessageContainer> }                    
                     <button
                         onClick={this.handleClick}>
                         Change message
                     </button>
-                    <br />
+                    <br/>
                     <Menu>
                         {links}
                     </Menu>
-                   <DatePicker/>
-                   <LocaleProvider locale={frFR}>
-                        <div id="CurrentPageDiv" />
-                   </LocaleProvider>
+                    <DatePicker/>
+                    <div id="CurrentPageDiv"/>
                 </div>
-            </ThemeProvider>
+            </ThemeProvider >
         );
     }
 }
