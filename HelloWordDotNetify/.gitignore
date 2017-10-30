@@ -1,7 +1,0 @@
-# Node Files #
-node_modules/
-# Dist
-.awcache
-obj/
-bin/
-wwwroot/dist/
